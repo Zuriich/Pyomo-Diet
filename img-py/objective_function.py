@@ -28,6 +28,7 @@ pl.axhline(0, color='k')
 
 pl.text(-.9, 4.4, '$x_2$', size=20)
 pl.text(5.6, -.6, '$x_1$', size=20)
+pl.title('$ f(x_1 , x_2) = \sqrt{(x_1 - 3)^ 2 +  (x_2 - 2)^2} $', size = 20)
 pl.axis('equal')
 pl.axis('off')
 pl.show()

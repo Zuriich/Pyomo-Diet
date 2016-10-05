@@ -4,48 +4,121 @@
 #Food + Cost
 
 param:  F:                                                 Cal  :=
-  "Bacon Clubhouse Burgerx"                                740
-  "Bacon Clubhouse Grilled Chicken Sandwichx"              610
-  "Bacon Clubhouse Crispy Chicken Sandwichx"               750             
-  "McChickenx"                                             370
-  "Filet-O-Fishx"                                          470             
-  "McRibx"                                                 390       
-  "Premium McWrap Chicken & Bacon (Crispy)x"               500
-  "Premium McWrap Chicken & Bacon (Grilled)x"              640
-  "Premium McWrap Chicken & Ranch (Crispy)x"               500             
-  "Premium McWrap Chicken & Ranch (Grilled)x"              610     
-  "Premium McWrap Chicken & Sweet Chili (Crispy)x"         470
-  "Premium McWrap Chicken & Sweet Chili (Grilled)x"        540
-  "Big Macx"                                               400            
-  "Quarter Pounder with Cheesex"                           540      
-  "Double Quarter Pounder with Cheesex"                    540  
-  "Hamburguerx"                                            780
-  "Cheeseburgerx"                                          250
-  "BBQ Ranch Burgerx"                                      300
-  "Grilled Onion Ringsx"                                   350
-  "Double Cheeseburgerx"                                   310  
-  "McDoublex"                                              440
-  "Bacon McDoublex"                                        390
-  "Ranch Snack Wrap (Crispy)x"                             440
-  "Ranch Snack Wrap (Grilled)x"                            360
-  "Mac Snack Wrapx"                                        290
-  "Jalapenio Doublex"                                      330
-  "Premium Crispy Chicken Deluxe Sandwichx"                440
-  "Quarter Pounder Deluxex"                                530
-  "Artisan Grilled Chicken Sandwichx"                      600
-  "Buttermilk Crispy Chicken Sandwichx"                    360
-  "Premium Asian Sald with Crispy Chickenx"                610
-  "Premium Asian Sald with Grilled Chickenx"               410
-  "Bacon Cheddar McChickenx"                               440
-  "Chicken McNuggetsx"                                     470
-  "Ranch Snack Wrapx"                                      360
-  "Small French Friesx"                                    230
-  "Premium Bacon Ranch Salad with Crispy Chickenx"         470
-  "Baked Mozzarella Sticksx"                               200  ; 
+"1 Low Fat Milk Jug"                           100    
+"Blueberry Pomegranate Smoothie"               220    
+"Coca-Cola Classic"                            210    
+"Dr Pepper"                                    210    
+"Fat Free Chocolate Milk Jug"                  130    
+"Hi-C Orange Lavaburst"                        240  
+"Mango Pineapple Smoothie"                     220    
+"McCafe Classic Lemonade"                      100   
+"Minute Maid Apple Juice Box"                  100   
+"Minute Maid® Orange Juice"                    190  
+"POWERade Mountain Berry Blast"                150  
+"Red Flash Extra Small"                        110  
+"Red Flash Large"                              300    
+"Red Flash Medium"                             220    
+"Red Flash Small"                              150     
+"Sprite"                                       210    
+"Strawberry Banana Smoothie"                   210    
+"Sweet Tea"                                    180     
+"Bacon  Egg & Cheese Bagel"                    560     
+"Bacon  Egg & Cheese Bagel w/ Egg Whites"      510     
+"Bacon  Egg & Cheese Biscuit"                  420     
+"Bacon  Egg & Cheese Biscuit w/ Egg Whites"    360     
+"Bacon  Egg & Cheese McGriddles"               420     
+"Bacon  Egg & Cheese McGriddles w/ Egg Whites" 360     
+"Big Breakfast w/ Egg Whites"                  640     
+"Big Breakfast w/ Hotcakes & Egg Whites"       990     
+"Big Breakfast with Hotcakes"                  1090    
+"Big Breakfast®"                               740     
+"Cinnamon Melts"                               460    
+"Egg McMuffin"                                 300     
+"Egg White Delight McMuffin"                   250     
+"Fruit & Maple Oatmeal w/ Brown Sugar"         290     
+"Fruit & Maple Oatmeal w/o Brown Sugar"        260    
+"Hash Brown"                                   150   
+"Hotcakes"                                     350     
+"Hotcakes and Sausage"                         520     
+"Sausage Biscuit"                              430     
+"Sausage Biscuit w/ Egg Whites"                460     
+"Sausage Biscuit with Egg"                     510     
+"Sausage Burrito"                              300     
+"Sausage McGriddles®"                          420     
+"Sausage McMuffin w/ Egg Whites"               400     
+"Sausage McMuffin®"                            370     
+"Sausage McMuffin® with Egg"                   450     
+"Sausage  Egg & Cheese McGriddles"             560     
+"Sausage  Egg & Cheese McGriddles Egg Whites"  500     
+"Southern Style Chicken Biscuit"               410     
+"Steak & Egg Biscuit"                          540     
+"Artisan Grilled Chicken Sandwich"             360     
+"Bacon & Cheese Sirloin Third Pound Burger"    810     
+"Bacon Buffalo Ranch McChicken"                420     
+"Bacon Cheddar McChicken"                      480     
+"Bacon Clubhouse Burger"                       720     
+"Bacon Clubhouse Chicken Sandwich wC/ Chicken" 750     
+"Bacon Clubhouse Chicken Sandwich wG/ Chicken" 590     
+"Bacon McDouble"                               460     
+"BBQ Ranch Burger"                             350     
+"Big Mac"                                      540     
+"Buffalo Ranch McChicken"                      350     
+"Cheeseburger"                                 300     
+"Daily Double"                                 440     
+"Double Cheeseburger"                          440     
+"Double Quarter Pounder® with Cheese"          740     
+"Filet-O-Fish®"                                380     
+"Grilled Onion Cheddar Burger"                 310     
+"Hamburger"                                    250     
+"Jalapeño Double"                              430     
+"Lettuce & Tomato Sirloin Third Pound Burger"  750     
+"McChicken"                                    360     
+"McDouble"                                     390     
+"McRib"                                        500     
+"Old Bay Filet-O-Fish"                         390     
+"Premium Buttermilk CrispyChicken DeluxeSandw" 580     
+"Premium Crispy Chicken Deluxe Sandwich"       530     
+"Premium McWrap Chicken & Bacon wC/ Chicken"   600     
+"Premium McWrap Chicken & Bacon wG/ Chicken"   440     
+"Premium McWrap Chicken & Ranch wC/ Chicken"   590     
+"Premium McWrap Chicken & Ranch wG/ Chicken"   430     
+"Premium McWrap Chicken SweetChili wC/ Chicken" 520    
+"Premium McWrap Chicken SweetChili wG/ Chicken" 360    
+"Premium McWrap Southwest Chicken wC/ Chicken" 680     
+"Premium McWrap Southwest Chicken wG/ Chicken" 520     
+"Quarter Pounder Bacon & Cheese"               600     
+"Quarter Pounder Deluxe"                       540     
+"Quarter Pounder® with Cheese"                 510     
+"Southern Style Crispy Chicken Sandwich"       420     
+"Steakhouse Sirloin Third Pound Burger"        730     
+"Baked Hot Apple Pie"                          250    
+"Chocolate Chip Cookie"                        160    
+"Chocolate McCafe Shake"                       560    
+"Fried Cherry Pie"                             230    
+"Hot Caramel Sundae"                           340    
+"Hot Fudge Sundae"                             330    
+"Kiddie Ice Cream Cone"                        45     
+"McCafe Shamrock Shake"                        530    
+"McFlurry w/ M&M's Candies"                    650    
+"McFlurry w/ OREO Cookies"                     510    
+"Oatmeal Raisin Cookie"                        150    
+"Pumpkin and Creme Pie"                        270    
+"Strawberry & Creme Pie"                       310    
+"Strawberry McCafe Shake"                      550    
+"Strawberry Sundae"                            280    
+"Premium Asian Salad w/ Crispy Chicken"        410     
+"Premium Asian Salad w/ Grilled Chicken"       270     
+"Premium Asian Salad w/o Chicken"              140     
+"Premium Bacon Ranch Salad w/ Crispy Chicken"  390     
+"Premium Bacon Ranch Salad w/ Grilled Chicken" 230     
+"Premium Bacon Ranch Salad w/o Chicken"        140    
+"Premium Southwest Salad w/ Crispy Chicken"    450     
+"Premium Southwest Salad w/ Grilled Chicken"   290     
+"Premium Southwest Salad w/o Chicken"          140    ; 
 
 # Max and Min Cost
 param:  N:       Cmin   Cmax    :=
-        Cost     0      5;
+        Cost     0      10;
 
 
 
@@ -53,41 +126,114 @@ param:  N:       Cmin   Cmax    :=
 
 param a:
                                                             Cost :=
-  "Bacon Clubhouse Burgerx"                                 4.49
-  "Bacon Clubhouse Grilled Chicken Sandwichx"               4.00
-  "Bacon Clubhouse Crispy Chicken Sandwichx"                4.00
-  "McChickenx"                                              4.00
-  "Filet-O-Fishx"                                           4.79
-  "McRibx"                                                  3.79
-  "Premium McWrap Chicken & Bacon (Crispy)x"                2.99
-  "Premium McWrap Chicken & Bacon (Grilled)x"               3.99
-  "Premium McWrap Chicken & Ranch (Crispy)x"                3.99               
-  "Premium McWrap Chicken & Ranch (Grilled)x"               3.99
-  "Premium McWrap Chicken & Sweet Chili (Crispy)x"          3.99
-  "Premium McWrap Chicken & Sweet Chili (Grilled)x"         3.99
-  "Big Macx"                                                3.69   
-  "Quarter Pounder with Cheesex"                            3.69
-  "Double Quarter Pounder with Cheesex"                     1.29  
-  "Hamburguerx"                                             1.29
-  "Cheeseburgerx"                                           1.00
-  "BBQ Ranch Burgerx"                                       1.29
-  "Grilled Onion Ringsx"                                    1.00
-  "Double Cheeseburgerx"                                    2.00 
-  "McDoublex"                                               2.00
-  "Bacon McDoublex"                                         1.99
-  "Ranch Snack Wrap (Crispy)x"                              1.59
-  "Ranch Snack Wrap (Grilled)x"                             1.59
-  "Mac Snack Wrapx"                                         2.00
-  "Jalapenio Doublex"                                       3.89
-  "Premium Crispy Chicken Deluxe Sandwichx"                 3.99
-  "Quarter Pounder Deluxex"                                 4.39
-  "Artisan Grilled Chicken Sandwichx"                       4.39
-  "Buttermilk Crispy Chicken Sandwichx"                     4.19
-  "Premium Asian Sald with Crispy Chickenx"                 4.59
-  "Premium Asian Sald with Grilled Chickenx"                4.29
-  "Bacon Cheddar McChickenx"                                4.59
-  "Chicken McNuggetsx"                                      1.69
-  "Ranch Snack Wrapx"                                       1.39
-  "Small French Friesx"                                     1.39
-  "Premium Bacon Ranch Salad with Crispy Chickenx"          4.59
-  "Baked Mozzarella Sticksx"                                1.19   ;
+"1 Low Fat Milk Jug"                                        1  
+"Blueberry Pomegranate Smoothie"                            3.39  
+"Coca-Cola Classic"                                         1.49  
+"Dr Pepper"                                                 1.99  
+"Fat Free Chocolate Milk Jug"                               2.29  
+"Hi-C Orange Lavaburst"                                     1.59  
+"Mango Pineapple Smoothie"                                  2.39  
+"McCafe Classic Lemonade"                                   1.79  
+"Minute Maid Apple Juice Box"                               2.09  
+"Minute Maid® Orange Juice"                                 2.09  
+"POWERade Mountain Berry Blast"                             2  
+"Red Flash Extra Small"                                     1.59  
+"Red Flash Large"                                           2.3  
+"Red Flash Medium"                                          2.1  
+"Red Flash Small"                                           1.89  
+"Sprite"                                                    1  
+"Strawberry Banana Smoothie"                                2.39  
+"Sweet Tea"                                                 1.49  
+"Bacon  Egg & Cheese Bagel"                                 3.29  
+"Bacon  Egg & Cheese Bagel w/ Egg Whites"                   4.99  
+"Bacon  Egg & Cheese Biscuit"                               1.39  
+"Bacon  Egg & Cheese Biscuit w/ Egg Whites"                 1.69  
+"Bacon  Egg & Cheese McGriddles"                            3.29  
+"Bacon  Egg & Cheese McGriddles w/ Egg Whites"              4.49  
+"Big Breakfast w/ Egg Whites"                               4.42  
+"Big Breakfast w/ Hotcakes & Egg Whites"                    5.49  
+"Big Breakfast with Hotcakes"                               6.1  
+"Big Breakfast®"                                            3.69  
+"Cinnamon Melts"                                            1.69  
+"Egg McMuffin"                                              2.79  
+"Egg White Delight McMuffin"                                2.79  
+"Fruit & Maple Oatmeal w/ Brown Sugar"                      1.99  
+"Fruit & Maple Oatmeal w/o Brown Sugar"                     1.99  
+"Hash Brown"                                                1.09  
+"Hotcakes"                                                  2.49  
+"Hotcakes and Sausage"                                      3.19  
+"Sausage Biscuit"                                           1.19  
+"Sausage Biscuit w/ Egg Whites"                             1.39  
+"Sausage Biscuit with Egg"                                  2.79  
+"Sausage Burrito"                                           1.29  
+"Sausage McGriddles®"                                       3.29  
+"Sausage McMuffin w/ Egg Whites"                            4.49  
+"Sausage McMuffin®"                                         1.19  
+"Sausage McMuffin® with Egg"                                1.39  
+"Sausage  Egg & Cheese McGriddles"                          3.29  
+"Sausage  Egg & Cheese McGriddles Egg Whites"               4.49  
+"Southern Style Chicken Biscuit"                            2.29  
+"Steak & Egg Biscuit"                                       3.99  
+"Artisan Grilled Chicken Sandwich"                          4.39  
+"Bacon & Cheese Sirloin Third Pound Burger"                 5  
+"Bacon Buffalo Ranch McChicken"                             2  
+"Bacon Cheddar McChicken"                                   2  
+"Bacon Clubhouse Burger"                                    4.49  
+"Bacon Clubhouse Chicken Sandwich wC/ Chicken"              4.19  
+"Bacon Clubhouse Chicken Sandwich wG/ Chicken"              4.19  
+"Bacon McDouble"                                            2  
+"BBQ Ranch Burger"                                          1  
+"Big Mac"                                                   3.99  
+"Buffalo Ranch McChicken"                                   1  
+"Cheeseburger"                                              2  
+"Daily Double"                                              1.39  
+"Double Cheeseburger"                                       1.69  
+"Double Quarter Pounder® with Cheese"                       3.79  
+"Filet-O-Fish®"                                             3.79  
+"Grilled Onion Cheddar Burger"                              1  
+"Hamburger"                                                 2.49  
+"Jalapeño Double"                                           2  
+"Lettuce & Tomato Sirloin Third Pound Burger"               4.99  
+"McChicken"                                                 2  
+"McDouble"                                                  2  
+"McRib"                                                     2.99  
+"Old Bay Filet-O-Fish"                                      3.79  
+"Premium Buttermilk CrispyChicken DeluxeSandw"              5  
+"Premium Crispy Chicken Deluxe Sandwich"                    5  
+"Premium McWrap Chicken & Bacon wC/ Chicken"                4.39  
+"Premium McWrap Chicken & Bacon wG/ Chicken"                4.39  
+"Premium McWrap Chicken & Ranch wC/ Chicken"                4.39  
+"Premium McWrap Chicken & Ranch wG/ Chicken"                4.39  
+"Premium McWrap Chicken SweetChili wC/ Chicken"             4.39  
+"Premium McWrap Chicken SweetChili wG/ Chicken"             4.39  
+"Premium McWrap Southwest Chicken wC/ Chicken"              4.99  
+"Premium McWrap Southwest Chicken wG/ Chicken"              4.99  
+"Quarter Pounder Bacon & Cheese"                            3.79  
+"Quarter Pounder Deluxe"                                    4.09  
+"Quarter Pounder® with Cheese"                              3.79  
+"Southern Style Crispy Chicken Sandwich"                    3.39  
+"Steakhouse Sirloin Third Pound Burger"                     5.19  
+"Baked Hot Apple Pie"                                       0.89  
+"Chocolate Chip Cookie"                                     0.89  
+"Chocolate McCafe Shake"                                    2.99  
+"Fried Cherry Pie"                                          0.89  
+"Hot Caramel Sundae"                                        1.19  
+"Hot Fudge Sundae"                                          1.19  
+"Kiddie Ice Cream Cone"                                     1  
+"McCafe Shamrock Shake"                                     1.79  
+"McFlurry w/ M&M's Candies"                                 2.39  
+"McFlurry w/ OREO Cookies"                                  2.39  
+"Oatmeal Raisin Cookie"                                     1.99  
+"Pumpkin and Creme Pie"                                     0.89  
+"Strawberry & Creme Pie"                                    0.89  
+"Strawberry McCafe Shake"                                   2.99  
+"Strawberry Sundae"                                         1.19  
+"Premium Asian Salad w/ Crispy Chicken"                     4.39  
+"Premium Asian Salad w/ Grilled Chicken"                    4.39  
+"Premium Asian Salad w/o Chicken"                           4.39  
+"Premium Bacon Ranch Salad w/ Crispy Chicken"               4.59  
+"Premium Bacon Ranch Salad w/ Grilled Chicken"              4.59  
+"Premium Bacon Ranch Salad w/o Chicken"                     4.59  
+"Premium Southwest Salad w/ Crispy Chicken"                 4.79  
+"Premium Southwest Salad w/ Grilled Chicken"                4.79  
+"Premium Southwest Salad w/o Chicken"                       4.79     ;

@@ -34,6 +34,7 @@ pl.axhline(0, color='k')
 
 pl.text(-.9, 4.4, '$x_2$', size=20)
 pl.text(5.6, -.6, '$x_1$', size=20)
+pl.title('$ h(x_i) = 0 $', size=20)
 pl.axis('equal')
 pl.axis('off')
 pl.show()
