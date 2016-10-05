@@ -6,13 +6,13 @@
 # ----------------------------------------------------------
 Problem: 
 - Name: unknown
-  Lower bound: 3.69
-  Upper bound: 3.69
+  Lower bound: 3550.0
+  Upper bound: 3550.0
   Number of objectives: 1
-  Number of constraints: 22
-  Number of variables: 38
-  Number of nonzeros: 765
-  Sense: minimize
+  Number of constraints: 3
+  Number of variables: 112
+  Number of nonzeros: 223
+  Sense: maximize
 # ----------------------------------------------------------
 #   Solver Information
 # ----------------------------------------------------------
@@ -21,10 +21,10 @@ Solver:
   Termination condition: optimal
   Statistics: 
     Branch and bound: 
-      Number of bounded subproblems: 43
-      Number of created subproblems: 43
+      Number of bounded subproblems: 49
+      Number of created subproblems: 49
   Error rc: 0
-  Time: 0.014382600784301758
+  Time: 0.009116649627685547
 # ----------------------------------------------------------
 #   Solution Information
 # ----------------------------------------------------------
@@ -35,9 +35,13 @@ Solution:
   Status: optimal
   Message: None
   Objective:
-    cost:
-      Value: 3.69
+    calories:
+      Value: 3550
   Variable:
-    x[Big Macx]:
+    x[Sausage Biscuit]:
+      Value: 6
+    x[Strawberry & Creme Pie]:
+      Value: 2
+    x[Buffalo Ranch McChicken]:
       Value: 1
   Constraint: No values
