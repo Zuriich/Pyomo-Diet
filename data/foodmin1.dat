@@ -1,4 +1,4 @@
-# http://nutrition.mcdonalds.com/getnutrition/nutritionfacts.pdf
+# http://fastfoodnutrition.org/mcdonalds/chart
 # http://www.fastfoodmenuprices.com/mcdonalds-prices/
 
 #Food + Cost
@@ -124,18 +124,36 @@ param:  F:                                                  c  :=
  
 
 # Max and Min for each Nutrient
+#param:  N:       Nmin   Nmax    :=
+#        Cal      800     2500
+#        Fat      0       95
+#        T        0       65
+#        SatF     0       30
+#        TransF   0       30
+#        Chol     0       300
+#        Na       0       6000
+#        Car      100       300
+#        F        0       25
+#        S        0       120
+#        P        18       55
+#        VA       0        .
+#        VC       10       .
+#        Ca       10       .
+#        I        10       .    ;
+
+# Max and Min for each Nutrient
 param:  N:       Nmin   Nmax    :=
-        Cal      0        833
-        Fat      0        70
-        T        0        65
-        SatF     0        30
-        TransF   0        30
-        Chol     55       300
-        Na       0        2000
-        Car      0        75
-        F        0        25
-        S        0        15
-        P        30       .
+        Cal      800     2500
+        Fat      32      95
+        T        0       65
+        SatF     0       30
+        TransF   0       30
+        Chol     0       300
+        Na       0       6000
+        Car      100     300
+        F        8       25
+        S        40      120
+        P        18      55
         VA       0        .
         VC       10       .
         Ca       10       .
